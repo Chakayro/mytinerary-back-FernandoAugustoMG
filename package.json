@@ -1,0 +1,25 @@
+{
+  "name": "mytinerary-back-fernandoaugustomg",
+  "version": "1.0.0",
+  "description": "-npm init -y\r -npm install express\r -crear carpeta llamada \",gitignore\" y agregar dos lineas de codigo\r liena 1 \"node_modules\"\r linea 2 \".env\"\r -en el archivo package,json agregar una linea de codigo, en la liena 5 \"main\": \"index.js\", dar enter y seguido de eso la linea 6 quedara vacia, ahi escribir de manera textual con todo y las comas \"type\": \"module\",\r -crear un archivo de app, consejo llamarlo \"server.js\"\r npm install --save-dev nodemon",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./server.js",
+    "dev": "nodemon ./server.js",
+    "dataCities": "node ./models/data/cities.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
